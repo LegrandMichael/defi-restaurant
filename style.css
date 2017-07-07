@@ -1,0 +1,30 @@
+body {
+	margin: auto;
+}
+.services {
+	display: block;
+	justify-content: center;
+	background:  url('http://lorempixel.com/output/food-q-c-640-480-1.jpg')no-repeat;
+	background-size: 100%;
+}
+
+.services h1 {
+	justify-content: center;
+	text-align: center;
+	text-transform: uppercase;
+	color: rgb( 255, 0, 127);
+	font-size: 900;
+}
+
+.services p {
+
+}
+
+.services ul {
+
+}
+
+.services ul li{
+	list-style: none;
+	flex-direction: row;
+}
