@@ -1,0 +1,17 @@
+.footer
+{
+	display: inline-block;
+	border: 1px solid black;
+	
+}
+.footer h5{
+	border: 1px solid black;
+	text-align: center;
+}
+
+.footer input{
+	height: 30px;
+	width:  430px;
+	border: 1px solid grey;
+}
+

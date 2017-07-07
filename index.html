@@ -3,9 +3,42 @@
 <head>
 <meta charset="utf-8"/>
 <link rel="stylesheet" type="text/css" href="style.css">
+<link rel="stylesheet" type="text/css" href="font-awesome-4.7.0/css/font-awesome.css"/>
 	<title></title>
 </head>
 <body>
-<footer></footer>
+	<footer class="footer">
+		<h5>Contact Us</h5>
+		<form method="post" action="traitement.php">
+			<p>
+				<input type="text" name="yourname" id="yourname" placeholder="Your Name" size="40" maxlength="40">
+			</p>
+		</form> <!-- Ligne Formulaire Your Name -->
+
+		<form method="post" action="traitement.php">
+			<p>
+				<input type="text" name="youremail" id="youremail" placeholder="Your Email" size="40" maxlength="40">
+			</p>
+		</form> <!-- Ligne Formulaire Your Email -->
+
+		<form method="post" action="traitement.php">
+			<p>
+				<textarea name="yourmessage" rows="15" cols="60" id="yourmessage" placeholder="Your Message"></textarea>
+			</p>
+		</form> <!-- Multiligne pour Formulaire Your Message -->
+		<button type="button">SEND</button>
+
+		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+		quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+		consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+		cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+		proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p> <!-- Paragraphe -->
+
+		<i class="fa fa-facebook-official" aria-hidden="true"></i> <!-- Logo Facebook -->
+		<i class="fa fa-twitter" aria-hidden="true"></i> <!-- Logo Twitter -->
+		<i class="fa fa-google-plus-official" aria-hidden="true"></i> <!-- Logo google -->
+
+	</footer>
 </body>
 </html>
