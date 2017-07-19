@@ -1,30 +1,102 @@
+/* police des paragraphes      font-family: 'Bitter', serif; */
+/* police des titres           font-family: 'Alfa Slab One', cursive;*/
+/* rgb( 255, 0, 127);*/;
+/*#F99122*/
+
 body {
 	margin: auto;
+	padding: auto;
 }
-.services {
-	display: block;
-	justify-content: center;
-	background:  url('http://lorempixel.com/output/food-q-c-640-480-1.jpg')no-repeat;
-	background-size: 100%;
-}
+.background .services {    /* ciblage du background */
+	background:  no-repeat center linear-gradient(0deg, rgba(0,0,0,0.8), rgba(0,0,0,0.8)),url('https://www.fastpizzarouen.fr/assets/images/slider/pizza2.jpg');
+	background-size: cover;
+	box-shadow: 1px 25px 20px black;
 
-.services h1 {
+}
+.services { /* ciblage de la box titre */
 	justify-content: center;
+	width: 100%;
+	height: 100%;
+	justify-content: center;
+	background-color:rgba(0, 0, 0, 0.5);
+}
+.services h1 { /* ciblage du titre */
+	font-family: 'Alfa Slab One', cursive;
+	letter-spacing: 0.2em;
+	padding-top: 3%;
+	font-weight: bold;
+	font-size: 3em;
 	text-align: center;
 	text-transform: uppercase;
-	color: rgb( 255, 0, 127);
-	font-size: 900;
+	color: #FA8072;
 }
-
-.services p {
-
+.services p { /* ciblage du paragraphe sous le titre */
+	font-family: 'Bitter', serif;
+	font-size: 1.3em;
+	text-align: center;
+	color: white;
+	margin-top: -2%;
 }
-
-.services ul {
-
-}
-
-.services ul li{
-	list-style: none;
+.services ul { /* ciblage de la liste */
+	display: flex;
 	flex-direction: row;
+	justify-content: space-around;
+	padding-top: 3%;
+}
+.services ul li{ /* ciblage de chaque élément de la liste */
+	list-style: none;
+	width: 20%;
+	text-align: center;
+}
+.services ul li:hover {
+	border: 2px solid #F99122;
+}
+.services ul li img { /* ciblage des images */
+	width: 200px;
+	height: 200px;
+	border-radius: 50%;
+}
+.services ul li img:hover{ /* fonction hover sur l'image */
+	filter: opacity(30%);
+	border: 3px solid #F99122;
+}
+.services figcaption { /* ciblage des légendes des images */
+	display: flex;
+	justify-content: center;
+}
+.services ul li figcaption a{ /* ciblage des lien contenu dans les légendes */
+	width: 70%;
+	height: 10%;
+	font-size: 1.5em;
+	font-family: 'Bitter', serif;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+	text-decoration: none;
+	line-height: 2;
+	color: black;
+	background-color: #FA8072;
+	border-radius: 50%;
+	margin-top: 10%;
+}
+.services ul li figcaption a:hover { /* fonction hover sur les lien en légendes */
+	font-family: 'Bitter', serif;
+	font-size: 1.6em;
+	text-transform: uppercase;
+	color: black;
+	font-weight:bold;	
+	border-radius: 50%;
+	text-shadow: 0px 10px 15px black;
+	box-shadow: 0px 10px 25px #5F3C42;
+}
+.services ul p { /* ciblage du paragraphe de la liste */
+	box-sizing: 100%;
+	padding: 10px 50px 10px 50px;
+	word-wrap: break-word;
+	font-family: 'Bitter', serif;
+	font-size: 1em;
+	color: white;
+	font-weight:bold;
+	margin-bottom: 20%;
+	margin-top: 5%;
 }
